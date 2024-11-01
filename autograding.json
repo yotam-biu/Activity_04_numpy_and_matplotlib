@@ -1,0 +1,185 @@
+{
+  "tests": [
+    {
+      "name": "Test: Problem 1 / product sx*sy*sz",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1/test_product_sxsysz.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 1 / matrix product sx.sy.sz",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1/test_matrix_product_sxsysz.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 1 / commutator [sx, sy]",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1/test_commutator_sx_sy.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test: Problem 1 / state vector BONUS",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1/test_state_vector_BONUS.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2,
+      "extra": true
+    },
+    {
+      "name": "Test: Problem 2 / positions shape",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_2/test_positions_shape.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / positions ndim",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_2/test_positions_ndim.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / t shape",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_2/test_t_shape.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / t ndim",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_2/test_t_ndim.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / second particle coordinates",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_2/test_second_particle_coordinates.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / second particle y coordinate",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_2/test_second_particle_y_coordinate.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / all y coordinates",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_2/test_all_y_coordinates.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / all y coordinates shape",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_2/test_all_y_coordinates_shape.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / all y coordinates ndim",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_2/test_all_y_coordinates_ndim.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / translate particles",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_2/test_translate_particles.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test: Problem 2 / translate function",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_2/test_translate_function.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test: Problem 3 / X values",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib",
+      "run": "pytest --tb=short tests/problem_3/test_X_values.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 3 / sinc values",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib",
+      "run": "pytest --tb=short tests/problem_3/test_sinc_values.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test: Problem 3 / sinc plot",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib",
+      "run": "pytest --tb=short tests/problem_3/test_sinc_plot.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    }
+  ]
+}
